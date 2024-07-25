@@ -8,7 +8,7 @@
 
         <artifactId>hello-world-war</artifactId>
 
-        <version>1.1.6</version>
+        <version>1.1.4</version>
 
         <packaging>war</packaging>
 
@@ -22,7 +22,7 @@
 
       <id>maven-demo-snapshots</id>
 
-      <url>http://192.168.1.71:8081/repository/maven-demo-snapshots/</url>
+      <url>http://${env.NEXUSSERVERIP}:8081/repository/maven-demo-snapshots/</url>
 
     </snapshotRepository>
  
@@ -33,7 +33,7 @@
 
         <name>maven-demo</name>
 
-	<url>http://192.168.1.71:8081/repository/maven-demo/</url>
+	<url>http://${env.NEXUSSERVERIP}:8081/repository/maven-demo/</url>
 
       </repository>
  
@@ -100,6 +100,3 @@
                 </plugins>
 
         </build>
-
-</project>
- 
