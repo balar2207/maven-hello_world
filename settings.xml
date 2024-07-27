@@ -11,8 +11,8 @@
    
    <server>
       <id>maven-public</id>
-      <username>${env.MAVEN_USERNAME}</username>
-      <password>${env.MAVEN_PASSWORD}</password>
+      <username>admin</username>
+      <password>admin1</password>
    </server>
 
    <server>
