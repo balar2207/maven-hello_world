@@ -11,14 +11,14 @@
     <distributionManagement>
      <snapshotRepository>
       <id>maven-demo-snapshots</id>
-      <url>http://192.168.1.71:8081/repository/maven-demo-snapshots/</url>
+      <url>http://192.168.1.56:8081/repository/maven-demo-snapshots/</url>
     </snapshotRepository>
 
 
       <repository>
         <id>maven-demo</id>
         <name>maven-demo</name>
-	<url>http://192.168.1.71:8081/repository/maven-demo/</url>
+	<url>http://192.168.1.56:8081/repository/maven-demo/</url>
       </repository>
 
   </distributionManagement>
